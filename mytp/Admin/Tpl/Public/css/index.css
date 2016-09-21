@@ -1,0 +1,43 @@
+.login{
+    width:500px;
+    height:300px;
+    box-shadow: 0 0 5px #888;
+    margin:100px auto 0 auto;
+    border-radius: 5px;
+    padding:10px;
+}
+
+.verify{
+    cursor: pointer;
+}
+
+.row2{
+    height:500px;
+}
+
+.left{
+    height:100%;
+    border-right: 1px solid #cccccc;
+}
+
+.right{
+    height:100%;
+}
+
+.content{
+    resize: none;
+}
+
+.btn-danger{
+    float: right;
+    height: 30px;
+}
+
+.addUser{
+    width: 300px;
+    height: 250px;;
+    box-shadow: 0 0 10px;
+    margin: 5px;
+    padding:10px;
+    border-radius: 20px;
+}

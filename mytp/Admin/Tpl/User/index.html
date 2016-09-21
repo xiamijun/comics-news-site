@@ -1,0 +1,21 @@
+<extend name="Index:index"/>
+<block name="right">
+    <div class="table-responsive">
+        <table class="table table-striped table-hover">
+            <tr class="active">
+                <th>id</th>
+                <th>用户名</th>
+                <th>密码(md5加密)</th>
+                <th>是否管理员（1为是，0为否）</th>
+            </tr>
+            <volist name="rows" id="row">
+                <tr class="danger">
+                    <td><{$row.id}></td>
+                    <td><{$row.username}></td>
+                    <td><{$row.password}></td>
+                    <td><{$row.isadmin}></td>
+                </tr>
+            </volist>
+        </table>
+    </div>
+</block>

@@ -1,0 +1,17 @@
+<extend name="Index:index"/>
+<block name="right">
+    <volist name="rows" id="row">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4><{$row.title}></h4>
+            </div>
+            <div class="panel-body">
+                <{$row.content}>
+            </div>
+            <div class="panel-footer">
+                <span class="label label-danger">发布时间：</span><span><{$row.time|date='Y-m-d H:i:s',###}></span>
+                <button class="btn btn-danger">删除</button>
+            </div>
+        </div>
+    </volist>
+</block>
